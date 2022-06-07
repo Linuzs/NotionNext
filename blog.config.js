@@ -3,7 +3,7 @@ const BLOG = {
   AUTHOR: 'Linuz', // 作者
   BIO: '理想还是那理想', // 作者简介
   LINK: 'https://linuz.me', // 网站地址
-  KEYWORDS: 'Notion, 博客, 网络安全, 渗透测试, Linuz', // 网站关键词 英文逗号隔开
+  KEYWORDS: '博客, 网络安全, 渗透测试, Linuz', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
@@ -42,7 +42,7 @@ const BLOG = {
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'QXJlYTM5QDE2My5jb20=',
+  CONTACT_EMAIL: 'Area39@163.com',
   CONTACT_WEIBO: '',
   CONTACT_TWITTER: '',
   CONTACT_GITHUB: '',
